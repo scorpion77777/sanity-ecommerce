@@ -11,13 +11,28 @@ const navItems = [
     target: false,
   },
   {
-    label: "Products",
+    label: "Blog",
     href: "/blog",
     target: false,
   },
   {
     label: "About",
     href: "/about",
+    target: false,
+  },
+  {
+    label: "Products",
+    href: "/products",
+    target: false,
+  },
+  {
+    label: "Sign In",
+    href: "/sign-in",
+    target: false,
+  },
+  {
+    label: "Login",
+    href: "/login",
     target: false,
   },
 ];
