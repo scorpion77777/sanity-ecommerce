@@ -20,21 +20,7 @@ const navItems = [
     href: "/about",
     target: false,
   },
-  {
-    label: "Products",
-    href: "/products",
-    target: false,
-  },
-  {
-    label: "Sign In",
-    href: "/sign-in",
-    target: false,
-  },
-  {
-    label: "Login",
-    href: "/login",
-    target: false,
-  },
+  
 ];
 
 export default function Header() {
