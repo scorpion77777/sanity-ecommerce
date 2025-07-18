@@ -41,7 +41,7 @@ export default function RootLayout({
   children: React.ReactNode;
   
 }) {
-  <Analytics />
+  
   return (
     <html lang="en" suppressHydrationWarning>
       <link rel="icon" href="/favicon.ico" />
@@ -51,6 +51,7 @@ export default function RootLayout({
           fontSans.variable
         )}
       >
+        <Analytics />
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
