@@ -4,6 +4,7 @@ import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Toaster } from "@/components/ui/sonner";
+import { Analytics } from '@vercel/analytics/next';
 
 const isProduction = process.env.NEXT_PUBLIC_SITE_ENV === "production";
 
@@ -35,9 +36,12 @@ const fontSans = FontSans({
 
 export default function RootLayout({
   children,
+  
 }: {
   children: React.ReactNode;
+  
 }) {
+  <Analytics />
   return (
     <html lang="en" suppressHydrationWarning>
       <link rel="icon" href="/favicon.ico" />
