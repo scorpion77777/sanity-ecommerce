@@ -8,7 +8,7 @@ const navItems = [
     target: false,
   },
   {
-    label: "Products",
+    label: "Blog",
     href: "/blog",
     target: false,
   },
