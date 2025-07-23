@@ -53,7 +53,7 @@ export default function Footer() {
             <Link href="/" target="_blank" rel="noopener">
              Vahan Martirosyan
             </Link>
-            .
+            
           </p>
         </div>
       </div>
