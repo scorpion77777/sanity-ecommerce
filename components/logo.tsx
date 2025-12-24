@@ -19,9 +19,7 @@ export default function Logo() {
   <!-- Center dot -->
   <circle cx="100" cy="100" r="8" fill="#10b981"/>
   
-  <!-- Optional text (remove if not needed) -->
-  <text x="100" y="180" text-anchor="middle" font-family="Arial, sans-serif" 
-        font-size="14" fill="#333">LOGO</text>
+  
 </svg>
 
       <AiOutlineTrademarkCircle className="text-gray-500 mb-6 w-3 h-3 flex col-auto ml-1 text-sm" />
