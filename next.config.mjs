@@ -11,6 +11,7 @@ const nextConfig = {
     ]
   },
   images: {
+    qualities:[75, 90, 100],
     unoptimized: true,
     remotePatterns: [
       {
