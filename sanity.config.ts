@@ -16,6 +16,13 @@ import { resolve } from "@/sanity/presentation/resolve";
 import { structure } from "./sanity/structure";
 import { codeInput } from "@sanity/code-input";
 
+
+module.exports = {
+  images: {
+    qualities: [25, 50, 75, 100],
+  },
+}
+
 export default defineConfig({
   basePath: "/studio",
   title: "Schema UI",
